@@ -1,13 +1,8 @@
-
-function a(){
-    var abc=10;
-    function c(){
-        console.log(abc);
-    }
-    return c;
-
+function fun(){
+    var i=1;
+    setTimeout(function (){
+        console.log(i);
+    },3000);
+    console.log("Md Adil Alam");
 }
-var cba=a();
- console.log(cba);
-
- cba();
+fun();
